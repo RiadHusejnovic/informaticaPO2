@@ -16,7 +16,7 @@ if (isset($_POST['sendMailBtn'])) {
 <head>
 <link rel="stylesheet" href="https:/blogkruijsen.nl/test/e-mail/style/style.css">
 <meta charset="utf-8">
-<title>Nieuwe Bestelling!</title>
+<title>Nieuwe Feedback!</title>
 </head>
 <body>
 	<h2 class="nametitle">Hallo Riad Husejnovic,</h2>
@@ -53,7 +53,7 @@ if (isset($_POST['sendMailBtn'])) {
 <head>
 <link rel="stylesheet" href="https:/blogkruijsen.nl/test/e-mail/style/style.css">
 <meta charset="utf-8">
-<title>Nieuwe Bestelling!</title>
+<title>Nieuwe feedback!</title>
 </head>
 <body>
 	<h2 class="nametitle">Hallo '.$fromName.',</h2>

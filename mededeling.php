@@ -1,0 +1,1 @@
+<p style="display: block;" class="mededeling-container"><strong>Welkom!</strong> er zijn geen mededelingen. <a style="color: white;" href="https://blogkruijsen.nl/patch-notes.php">Versie 2.2.3.</a></p>

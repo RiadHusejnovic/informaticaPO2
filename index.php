@@ -8,7 +8,7 @@
 	</div>
 	<div class="bottom">
 		<div class="align-center-startup"><b><div class="modal-title">Source Code</div></b><p>Vind de bron hier</p>
-		<a class="cta" <a href="login">Source Code</a>
+		<a class="cta" <a href="source-code">Source Code</a>
 	</div>
 	</div>
 <?php include 'includes/footer.php'; ?>

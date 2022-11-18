@@ -6,6 +6,7 @@
                     <li><a href="wiebenik">Wie ben ik</a></li>
 					<li><a href="watwilik">Wat wil ik</a></li>
 					<li><a href="watkanik">Wat kan ik</a></li>
+					<li><a href="web3.0">Web 3.0</a></li>
                 </ul>
             </nav>
 			<?php

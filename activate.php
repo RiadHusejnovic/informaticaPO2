@@ -70,7 +70,7 @@
 <div class="container">
 <div class="login-box">
   	<div class="modal-body">
-    	<p class="modal-title">Activate Account</p>	 
+    	<p class="modal-title">Activeer Account</p>	 
 
 	        		<?php echo $output; ?>
 	     

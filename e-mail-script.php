@@ -58,7 +58,7 @@ if (isset($_POST['sendMailBtn'])) {
 <body>
 	<h2 class="nametitle">Hallo '.$fromName.',</h2>
 	<div class="container">
-	<h2>Bedankt voor uw feedback voor IZ PC Shop!</h2>
+	<h2>Bedankt voor uw feedback!</h2>
 	<div class="containertext">
 	<p>U heeft feedback verstuurd naar ons. Wij zijn u erg dankbaar, want door uw feedback kunnen wij onszelf verbeteren en daardoor meer mensen helpen! Wij zullen naar uw feedback luisteren en kijken of we onze diensten kunnen verbeteren.</p>
 	<p>Nogmaals, bedankt voor uw feedback!</p>

@@ -1,7 +1,7 @@
 <?php include 'includes/session.php'; ?>
 <?php
   if(isset($_SESSION['user'])){
-    header('location: cart_view.php');
+    header('location: /informatica');
   }
 
   if(isset($_SESSION['captcha'])){
@@ -39,7 +39,7 @@
       }
     ?>
 		<div class="login-box-body">
-    	<form action="register.php" method="POST">
+    	<form action="register" method="POST">
           <div class="form-group has-feedback">
             <input type="text" class="form-control" name="firstname" placeholder="Voornaam" value="" required>
             <span class="glyphicon glyphicon-user form-control-feedback"></span>
@@ -48,7 +48,6 @@
             <input type="text" class="form-control" name="lastname" placeholder="Achternaam" value=""  required>
             <span class="glyphicon glyphicon-user form-control-feedback"></span>
           </div>
-<! username !>
 			<div class="form-group has-feedback">
             <input type="text" class="form-control" name="username" placeholder="Gebruikersnaam" value=""  required>
             <span class="glyphicon glyphicon-user form-control-feedback"></span>
@@ -70,7 +69,7 @@
     	</form>
       <br>
 			<div class="links-modal">
-      <a href="login.php">Heb je al een account?</a><br>
+      <a href="login">Heb je al een account?</a><br>
   	</div>
 </div>	
 </body>

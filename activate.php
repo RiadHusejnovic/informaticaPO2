@@ -7,7 +7,7 @@
                 <h4><i class="icon fa fa-warning"></i> Error!</h4>
                 Probeer opnieuw.
             </div>
-            <h4>Er is iets mis gegaan. Probeer opnieuw te <a href="signup.php">registreren</a>.</h4>
+            <h4>Er is iets mis gegaan. Probeer opnieuw te <a href="signup">registreren</a>.</h4>
 		'; 
 	}
 	else{
@@ -24,7 +24,7 @@
 		                <h4><i class="icon fa fa-warning"></i> Error!</h4>
 		                Dit account is al geactiveerd.
 		            </div>
-		            <h4>Uw account is succesvol geactiveerd! U kunt nu <a href="login.php">inloggen</a>.</h4>
+		            <h4>Uw account is succesvol geactiveerd! U kunt nu <a href="login">inloggen</a>.</h4>
 				';
 			}
 			else{
@@ -36,7 +36,7 @@
 			                <h4><i class="icon fa fa-check"></i> Success!</h4>
 			                Account geactiveerd en succesvol geverifieerd - E-mail: <b>'.$row['email'].'</b>.
 			            </div>
-			            <h4>Uw account is succesvol geactiveerd! U kunt nu <a href="login.php">inloggen</a>.</h4>
+			            <h4>Uw account is succesvol geactiveerd! U kunt nu <a href="login">inloggen</a>.</h4>
 					';
 				}
 				catch(PDOException $e){
@@ -45,7 +45,7 @@
 			                <h4><i class="icon fa fa-warning"></i> Error!</h4>
 			                '.$e->getMessage().'
 			            </div>
-			            <h4>Er is iets mis gegaan. Probeer opnieuw te <a href="signup.php">registreren</a>.</h4>
+			            <h4>Er is iets mis gegaan. Probeer opnieuw te <a href="signup">registreren</a>.</h4>
 					';
 				}
 

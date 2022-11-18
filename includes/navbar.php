@@ -28,6 +28,7 @@
     <a href='contact'>Contact</a>
 	<a href='feedback.php'>Feedback</a>
 	<a href='checklist'>Checklist</a>
+	<a href='source-code'>Source Code</a>
 	<hr class='hr-nomargin'>
     <b><a href='logout'>Uitloggen</a></b>
   </div>
@@ -48,15 +49,13 @@
             <div class="overlay__content">
                 <a href="/informatica/home">Home</a>
 				<hr>
-                <a href="#">Waarom</a>
+                <a href="wiebenik">Wie ben ik</a>
 				<hr>
-                <a href="weer">Kijk</a>
+                <a href="watwilik">Wat wil ik</a>
 				<hr>
-				<a href="#">Je</a>
+				<a href="watkanik">Wat kan ik</a>
 				<hr>
-				<a href="#">Hier</a>
-				<hr>
-				<a href="#">?</a>
+				<a href="web3.0">Web 3.0</a>
 				<hr>
 				<div class="align-center-startup">
 				<?php
@@ -82,6 +81,6 @@
             </div>
 				</div>
         </div>
-        <script type="text/javascript" src="/gsmunity/includes/mobile.js"></script>
+        <script type="text/javascript" src="/informatica/includes/mobile.js"></script>
 <?php include 'includes/footer.php'; ?>
     </body>

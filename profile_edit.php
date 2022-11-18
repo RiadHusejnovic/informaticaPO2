@@ -36,7 +36,7 @@
 		}
 	}
 	else{
-		$_SESSION['error'] = 'Fill up edit form first';
+		$_SESSION['error'] = 'Geen idee';
 	}
 
 	$pdo->close();

@@ -40,11 +40,11 @@
 
 	}
 	else{
-		$_SESSION['error'] = 'Vul eerst alles in mogooltje';
+		$_SESSION['error'] = 'Vul eerst alles in';
 	}
 
 	$pdo->close();
 
-	header('location: login.php');
+	header('location: login');
 
 ?>

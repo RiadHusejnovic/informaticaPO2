@@ -31,7 +31,7 @@
 					$stmt->execute(['password'=>$password, 'id'=>$row['id']]);
 
 					$_SESSION['success'] = 'Geweldig! Uw wachtwoord is gerest';
-					header('location: login.php');
+					header('location: login');
 				}
 				catch(PDOException $e){
 					$_SESSION['error'] = $e->getMessage();

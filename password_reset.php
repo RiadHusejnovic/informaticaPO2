@@ -1,7 +1,7 @@
 <?php include 'includes/session.php'; ?>
 <?php
   if(!isset($_GET['code']) OR !isset($_GET['user'])){
-    header('location: index.php');
+    header('location: /informatica');
     exit(); 
   }
 ?>
@@ -22,7 +22,7 @@
 		<div class="login-box-body">
     	<p class="modal-title">Password Recovery Tool</p>
 
-    	<form action="password_new.php?code=<?php echo $_GET['code']; ?>&use"POST">
+    	<form action="password_new.php?code=<?php echo $_GET['code']; ?>&usenPST">
       		<div class="form-group has-feedback">
         		<input type="password" class="form-control" name="password" placeholder="Nieuw wachtwoord" required>
         		<span class="glyphicon glyphicon-lock form-control-feedback"></span>
